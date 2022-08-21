@@ -1,0 +1,23 @@
+{
+    "name": "simpleNode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lamb-chops/simpleNode.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lamb-chops/simpleNode/issues"
+    },
+    "homepage": "https://github.com/lamb-chops/simpleNode#readme",
+    "bin": {
+        "nsl": "index.js"
+    }
+}
