@@ -19,5 +19,8 @@
     "homepage": "https://github.com/lamb-chops/simpleNode#readme",
     "bin": {
         "nsl": "index.js"
+    },
+    "dependencies": {
+        "chalk": "^5.0.1"
     }
 }

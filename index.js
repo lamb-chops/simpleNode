@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
 const fs = require('fs')
+const util = require('util')
+    //chalk npm package for coloring
+const chalk = require('chalk')
 
 //open up current dir
 fs.readdir(process.cwd(), (err, filenames) => {
@@ -15,6 +18,10 @@ fs.readdir(process.cwd(), (err, filenames) => {
 
     for (let stats of allStats) {
         const index = allStats.indexOf(stats)
-        console.log(filenames[index], stats.isFile())
+        if (stats.isFile) {
+            console.log(filenames[index])
+        } else {
+            console.log(chalk.bold(filenames[index]))
+        }
     }
 })
